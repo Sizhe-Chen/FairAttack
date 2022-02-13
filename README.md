@@ -1,6 +1,7 @@
-# Dependencies
-* Prepare [ImageNet validation set (2012)](http://www.image-net.org), place in folder 'ILSVRC2012_img_val'
-* Prepare by running
+# Decription
+* The code is the official implementation of [Measuring the Transferability of Linf Attacks by the L2 Norm](https://arxiv.org/abs/2102.10343)
+* Authors: [Sizhe Chen](https://sizhechen.top), Qinghua Tao, Zhixing Ye, [Xiaolin Huang](http://www.pami.sjtu.edu.cn/en/xiaolin)
+* To run, prepare [ImageNet validation set (2012)](http://www.image-net.org), place in folder 'ILSVRC2012_img_val', and run
 
 ```
 conda env create -f fairattack.yaml
